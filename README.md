@@ -1,3 +1,13 @@
+# Team 47's Notes
+### Fork used for launching YOLOv2 on ROS
+Commands
+* roslaunch yolo_v2_ros zed_camera.launch
+
+Updates
+* Modified launch file to work with ZED camera
+
+
+
 # Yolo version 2 for ROS
 Yolo9000 wrapped in a ros-package for running it with ROS. 
 A lot of credit goes to Joseph Chet Redmon - you might enjoy his [resume](https://pjreddie.com/static/Redmon%20Resume.pdf) - and co. for implementing a deep learning framework [Darknet](http://pjreddie.com/darknet/) and the super fast object detector [YOLO](https://arxiv.org/abs/1506.02640) and [YOLOv2 / YOLO9000](https://pjreddie.com/media/files/papers/YOLO9000.pdf).
